@@ -1,0 +1,60 @@
+Question1:
+1. This query is to find all the details of the customers who come from the city
+“Mumbai”.
+
+Question2:
+2. This query is to find the age of the customers by subtracting their DOB from
+the current date.
+
+Question3:
+3. This query is to find the average payment from all the customers.
+
+Question4:
+4. This query is to find the sum of payments of all the customers.
+
+Question5:
+5. This query is to find the details of the employees who have salaries equal or
+over 200000 ordered from highest to lowest salary
+
+Question6:
+6. This query is to find the names of customers and their respective payments,
+ordered from highest to lowest. This is done by joining the customer and
+payment table.
+
+Question7:
+7. This query is to find the customer id, which room they booked, along with the
+prices. This is done by joining the reservation and rooms table.
+
+Question8:
+8. This query is to find the employee name, their department, designation and
+salary ( from highest to lowest). Group By is used to group the employees with
+the same designation. Department and employee tables are joined.
+
+Question9:
+9. This query is to find the name and phone no. of the customers, and which
+facilities they are using (facility id). Customer and cust_uses_facilities tables are
+joined.
+
+Question10:
+10. This query is to find the type of the customer, whether he/she is a new,
+familiar or a regular customer by checking their payment no. (1st payment, 2nd
+payment etc) . This is done by using a case statement and joining the customer
+and payment tables.
+
+Question11:
+11. This query is to find which customers are to be given the “New Year’s Offer”
+and which to be not, based on whether they booked their reservation between 1st
+January to 31st January or not. This is done using a case statement and joining
+the customer and reservation tables.
+
+Question12:
+12. This query is to find the name of the customer, which facility he/she is using
+(facility name), along with its price(from highest to lowest). We used CONCAT to
+get the full name of the customer. And this time, we join 3 tables (customer,
+cust_uses_facilities and facilities).
+
+Question13:
+13. This query is to find the customers who have made payment more than the
+average payment. The average payment is 21,500 (from query 3). We have used a
+sub-query to get the output, along with joining the customer table and the
+payment table.
